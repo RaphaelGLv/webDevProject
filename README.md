@@ -12,7 +12,7 @@ Before running the application, you will need install these:
 1. Clone the repository to your machine
 ```
 git clone https://github.com/RaphaelGLv/WebDevProject.git
-cd WebDevProject
+cd web-dev-project
 ```
 2. Install the project dependencies
 ```
