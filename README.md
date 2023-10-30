@@ -1,6 +1,6 @@
 ## Technologies Used
 - [Next.js](https://nextjs.org/docs)
-- [TypeScript](https://www.typescriptlang.org/docs/)
+- [JavaScript](https://devdocs.io/javascript/)
 - [Styled Components](https://styled-components.com/docs)
 
 ## Getting Started
@@ -9,10 +9,9 @@ Before running the application, you will need install these:
 - [Yarn](https://yarnpkg.com/) - version: 1.x or higher
 
 ## Installation
-1. Clone the repository to your machine
+1. Clone the repository to your machine and select the added folder
 ```
 git clone https://github.com/RaphaelGLv/WebDevProject.git
-cd web-dev-project
 ```
 2. Install the project dependencies
 ```
