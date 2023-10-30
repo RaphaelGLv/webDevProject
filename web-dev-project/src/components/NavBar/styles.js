@@ -11,8 +11,8 @@ export const Content = styled.div`
     top: 0;
 
     #logo {
-        margin: 2%;
-        height: 5vmax;
-        width: 5vmax;
+        margin: 1%;
+        height: 2rem;
+        width: 2rem;
     }
 `
