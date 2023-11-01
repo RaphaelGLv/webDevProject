@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Content = styled.button`
     box-sizing: border-box;
     border: none;
-    height: 1.5rem;
+    height: 2rem;
     width: 5rem;
     margin: 1%;
     background-color: #376192;
