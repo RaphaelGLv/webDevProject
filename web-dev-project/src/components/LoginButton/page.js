@@ -6,7 +6,7 @@ import { SlUser } from "react-icons/sl";
 
 export const LoginButton = () => {
     return (
-        <S.Content onClick={console.log("url da pagina de login aqui!")}>
+        <S.Content>
             <SlUser id="personIcon" />
             <p>Entrar</p>
         </S.Content>
