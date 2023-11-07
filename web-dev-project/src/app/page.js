@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <AnimalList />
       <SearchSection />
+      <AnimalList />
       <Carrossel/>
       <CategoriasSection />
     </>
