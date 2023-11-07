@@ -27,9 +27,9 @@ export const Text = styled.div`
 
 export const Cards = styled.div`
     display: grid;
-    grid-template-columns: auto auto;
-    place-content: center;
+    grid-template-columns: auto auto auto auto;
     gap: 4vmax 4vmax;
+    place-content: center;
     
     width: 100%;
 
@@ -63,6 +63,12 @@ export const Cards = styled.div`
     #image {
         height: 12vmax;
         width: auto;
+    }
+
+    @media (max-width: 770px) {
+        grid-template-columns: auto auto;
+        gap: 4vmax 6vmax;
+        place-content: center;
     }
 `
 
