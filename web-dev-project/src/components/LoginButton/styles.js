@@ -1,21 +1,25 @@
 import styled from "styled-components";
 
-export const Content = styled.button`
+export const Content = styled.a`
     box-sizing: border-box;
     border: none;
-    height: 1.5rem;
+    height: 2rem;
     width: 5rem;
     margin: 1%;
+
     background-color: #376192;
     color: white;
     font-size: 1.7rem;
+    text-decoration: none;
+
     display: flex;
     align-items: center;
+
     border-radius: 1rem;
     justify-content: center;
-    transition: ease-in-out 0.1s;
     gap: 2%;
-
+    
+    transition: ease-in-out 0.1s;
     #personIcon {
         height: 1rem;
         width: auto;

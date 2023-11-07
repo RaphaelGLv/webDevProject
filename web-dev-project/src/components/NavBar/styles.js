@@ -9,6 +9,7 @@ export const Content = styled.div`
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 1;
 
     #logo {
         margin: 1%;
