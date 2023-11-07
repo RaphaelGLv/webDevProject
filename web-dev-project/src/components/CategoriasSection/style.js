@@ -29,7 +29,7 @@ export const Cards = styled.div`
     display: grid;
     grid-template-columns: auto auto;
     place-content: center;
-    gap: 4vmax 6vmax;
+    gap: 4vmax 4vmax;
     
     width: 100%;
 
@@ -50,8 +50,8 @@ export const Cards = styled.div`
     #cardContent {
         background-color: #FFF7B4;
 
-        width: 22vmax;
-        height: 20vmax;
+        width: 18vmax;
+        height: 16vmax;
 
         display: flex;
         align-items: center;
