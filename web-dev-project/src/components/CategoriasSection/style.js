@@ -27,9 +27,9 @@ export const Text = styled.div`
 
 export const Cards = styled.div`
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
+    gap: 4vmax 4vmax;
     place-content: center;
-    gap: 4vmax 6vmax;
     
     width: 100%;
 
@@ -50,8 +50,8 @@ export const Cards = styled.div`
     #cardContent {
         background-color: #FFF7B4;
 
-        width: 22vmax;
-        height: 20vmax;
+        width: 18vmax;
+        height: 16vmax;
 
         display: flex;
         align-items: center;
@@ -63,6 +63,12 @@ export const Cards = styled.div`
     #image {
         height: 12vmax;
         width: auto;
+    }
+
+    @media (max-width: 770px) {
+        grid-template-columns: auto auto;
+        gap: 4vmax 6vmax;
+        place-content: center;
     }
 `
 
