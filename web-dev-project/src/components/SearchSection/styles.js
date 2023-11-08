@@ -36,8 +36,9 @@ export const Content = styled.div`
         border: none;
         text-align: left;
         padding: 0; /* Removendo o preenchimento */
-        position: absolute;
+        position: relative;
         width: 89% ;    
+
         background-color: rgba(178, 112, 60, 0.01);
     }
     

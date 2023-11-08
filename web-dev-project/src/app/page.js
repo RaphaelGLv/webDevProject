@@ -4,6 +4,8 @@ import styles from './page.module.css'
 import { NavBar } from '@/components/NavBar/page'
 import { SearchSection } from '@/components/SearchSection/page'
 import { CategoriasSection } from '@/components/CategoriasSection/page.js'
+import LoginPage from './LoginPage/page'
+import { LoginButton } from '@/components/LoginButton/page'
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <NavBar />
       <SearchSection/>
       <CategoriasSection />
+      <LoginPage></LoginPage>
     </>
   )
 }
