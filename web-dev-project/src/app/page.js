@@ -5,7 +5,6 @@ import { NavBar } from '@/components/NavBar/page'
 import { AnimalList } from '@/components/AnimalList/page'
 import { SearchSection } from '@/components/SearchSection/page'
 import { CategoriasSection } from '@/components/CategoriasSection/page.js'
-import LoginPage from './LoginPage/page'
 import Carrossel from '@/components/Carrossel/page'
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
       <AnimalList />
       <Carrossel/>
       <CategoriasSection />
-      <LoginPage />
     </>
   )
 }
