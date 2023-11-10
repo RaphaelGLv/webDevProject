@@ -32,14 +32,13 @@ export const Content = styled.div`
         margin: auto;
     }
     
-    label{
-        margin-left: 3%;
-    }
     input{
+        border: 1px solid #ACACAC;
         border-radius: 1rem;
         height: 2rem;
-        width: 90%;
-        margin-left: 3%;
+        width: 100%;
+        margin: 0 auto;
+        outline: none;
     }
     
     p{
@@ -49,7 +48,7 @@ export const Content = styled.div`
         font-weight: 600;
     }
 
-    img{
+    #img{
 
         width: 85%;
         align-self: center;
@@ -58,6 +57,13 @@ export const Content = styled.div`
 
     .cpf-senha{
         padding-left: 3%;
+    }
+
+    #loginForm {
+        margin: 0 auto;
+        width: 93%;
+        display: flex;
+        flex-direction: column;
     }
 
 `
@@ -70,7 +76,8 @@ export const But = styled.a`
         height: 2rem;
         width: 50%;
         
-        margin: 5% 0 2% 22%;
+        margin: 1.5rem auto;
+        margin-bottom: 0.3rem;
         background-color: #376192;
         color: white;
         font-size: 1.7rem;
@@ -92,9 +99,17 @@ export const But = styled.a`
             transform: scale(1.15);
         }
     }
-        
-        
-    
+`
 
+export const LogonLink = styled.a`
+    color: #376192;
+    text-decoration: none;
+    font-size: 1rem;
 
+    align-self: center;
+
+    transition: ease-in-out 0.2s;
+    &:hover {
+        text-decoration: underline;
+    }
 `
