@@ -31,7 +31,6 @@ export const Content = styled.div`
         color: white;
         padding-bottom: 1rem;
         position: relative;
-        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: clamp(0.8em, 2vw, 5em);
