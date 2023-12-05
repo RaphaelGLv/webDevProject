@@ -4,7 +4,6 @@ import * as S from "./styles";
 import React, { Component } from 'react'; 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel'; 
-import { LoginButton } from "../LoginButton/page";
   
 export default class NextJsCarousel extends Component { 
     render() { 

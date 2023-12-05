@@ -7,6 +7,11 @@ import brinquedo from "@/assets/svg/brinquedo.svg";
 import roupas from "@/assets/svg/roupas.svg";
 
 export const CategoriasSection = () => {
+    const imgClick = (event) => {
+        event.preventDefault();
+        alert("Ops! Ainda estamos aprimorando esta parte do site.");
+    };
+
     return (
         <S.Content>
             <S.Text>
@@ -15,28 +20,28 @@ export const CategoriasSection = () => {
             </S.Text>
 
             <S.Cards>
-                <div id="card">
+                <div id="card" onClick={imgClick}>
                     <h2 id="cardTitle">Rações</h2>
                     <div id="cardContent">
                         <Image id="image" src={racao} alt="Imagens de ração" />
                     </div>
                 </div>
 
-                <div id="card">
+                <div id="card" onClick={imgClick}>
                     <h2 id="cardTitle">Petiscos</h2>
                     <div id="cardContent">
                         <Image id="image" src={petiscos} alt="Imagens de ração" />
                     </div>
                 </div>
 
-                <div id="card">
+                <div id="card" onClick={imgClick}>
                     <h2 id="cardTitle">Brinquedos</h2>
                     <div id="cardContent">
                         <Image id="image" src={brinquedo} alt="Imagens de ração" />
                     </div>
                 </div>
 
-                <div id="card">
+                <div id="card" onClick={imgClick}>
                     <h2 id="cardTitle">Roupas</h2>
                     <div id="cardContent">
                         <Image id="image" src={roupas} alt="Imagens de ração" />

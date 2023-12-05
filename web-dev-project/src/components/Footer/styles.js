@@ -17,7 +17,7 @@ export const Content = styled.div`
     }
     
     #map_div {
-        margin: 1rem 15% 1rem 5%;
+        margin: 1rem 0 1rem 5%;
         background: #211111;
         border-radius: 2rem 2rem 0 0;
         box-sizing: border-box;
@@ -45,18 +45,24 @@ export const Content = styled.div`
         font-size: 120%;
         line-height: 100%;
         width: 40%;
-        margin-right: 5%;
+        margin: auto;
+        text-align: center;
+        padding: 0 1rem;
     }
 
     a {
         text-decoration: none;
         color: #211111;
         transition: 0.3s;
-        font-size: 5vw;
         &:hover {
             opacity: 0.7;
         }
     }
+
+    #footerLinks {
+        font-size: 16px;
+    }
+
     #moldura {
         height: 100%;
         width: 100%;

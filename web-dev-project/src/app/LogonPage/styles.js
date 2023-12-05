@@ -3,25 +3,25 @@ import styled from "styled-components";
 export const Content = styled.div`
     background-color: #376192;
     padding: 2rem 0;
-
+    
     width: 100%;
     height: fit-content;
-`
+    `
 
 export const Form = styled.form`
     margin: auto;
     padding: 1rem 2rem;
-
+    
     display: flex;
     flex-direction: column;
 
     background-color: white;
 
     border-radius: 3rem;
-
+    
     height: fit-content;
     width: 650px;
-
+    
     @media (max-width: 928px) {
         width: 70%;
     }
@@ -29,7 +29,7 @@ export const Form = styled.form`
     label {
         margin-top: 0.5rem;
     }
-
+    
     input {
         border: 1px solid #ACACAC;
         border-radius: 1rem;
@@ -39,6 +39,17 @@ export const Form = styled.form`
 
         padding: 0.5rem 1rem;
         margin-bottom: 0.5rem;
+    }
+    
+    #seePassword {
+        display: inline-flex;
+        gap: 5px;
+    }
+
+    #passwordCheckbox {
+        height: fit-content;
+        margin: 0;
+        align-self: center;
     }
 
     #recommend-label {
@@ -79,6 +90,7 @@ export const ButtonSection = styled.div`
     width: 100%;
 
     text-align: center;
+
 
     #reset-button {
         color: white;
