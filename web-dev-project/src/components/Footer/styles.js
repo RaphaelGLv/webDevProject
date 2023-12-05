@@ -13,6 +13,7 @@ export const Content = styled.div`
         height: fit-content;
         align-items: center;
         justify-content: space-between;
+        padding: 2% 0;
     }
     
     #map_div {
@@ -22,7 +23,7 @@ export const Content = styled.div`
         box-sizing: border-box;
         width: 30rem;
         padding: 1.5rem;
-        height: 15rem;
+        height: 18rem;
     }
 
     p {
@@ -51,6 +52,7 @@ export const Content = styled.div`
         text-decoration: none;
         color: #211111;
         transition: 0.3s;
+        font-size: 5vw;
         &:hover {
             opacity: 0.7;
         }
