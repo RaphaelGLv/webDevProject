@@ -7,7 +7,6 @@ import passaro from "@/assets/images/passaro.png";
 import peixe from "@/assets/images/peixe.png";
 import roedor from "@/assets/images/roedor.png";
 import Link from "next/link";
-import { SlUser } from "react-icons/sl";
 
 export const AnimalList = () => {
     const handleLinkClick = (event) => {

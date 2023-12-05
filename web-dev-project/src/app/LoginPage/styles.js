@@ -11,9 +11,13 @@ export const Content = styled.div`
         position: absolute;
         margin: 0;
         width: 100%;
-        height: 100%;
+        height: fit-content;
         display: flex;
-        
+        padding: 1rem;
+
+        @media (max-width: 511px) {
+            height: 100%;
+        }
 
     }
     .LoginArea{
@@ -24,12 +28,17 @@ export const Content = styled.div`
         flex-direction: column;
         justify-content: center;
         padding: 7%;
-        border-radius: 9rem 9rem 9rem 9rem;
+        border-radius: 20vw;
         width: fit-content;
         height: fit-content;
         /* margin-left: 20%;
         margin-top: 5%; */
         margin: auto;
+
+        @media (max-width: 511px) {
+            width: 100%;
+            height: 100%;
+        }
     }
     
     input{
@@ -43,7 +52,6 @@ export const Content = styled.div`
     
     p{
         margin: 5% 0 3% 3%;
-        //font-weight: ;
         font-size: 150% ;
         font-weight: 600;
     }

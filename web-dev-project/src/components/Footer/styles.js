@@ -18,7 +18,7 @@ export const Content = styled.div`
     #map_div {
         margin: 1rem 15% 1rem 5%;
         background: #211111;
-        border-radius: 2rem;
+        border-radius: 2rem 2rem 0 0;
         box-sizing: border-box;
         width: 30rem;
         padding: 1.5rem;
@@ -55,5 +55,13 @@ export const Content = styled.div`
             opacity: 0.7;
         }
     }
+    #moldura {
+        height: 100%;
+        width: 100%;
 
+        position: relative;
+
+        overflow: hidden;
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
 `
