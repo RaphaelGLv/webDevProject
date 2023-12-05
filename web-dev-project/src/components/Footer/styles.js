@@ -4,7 +4,7 @@ export const Content = styled.div`
     padding-top: 2%;
 
     #main_div {
-        position: absolute;
+        position: relative;
         width: 100%;
         box-sizing: border-box;
         background-color: #FFF7B4;
@@ -16,27 +16,29 @@ export const Content = styled.div`
     }
     
     #map_div {
-        margin: 2rem 15% 2rem 5%;
+        margin: 1rem 15% 1rem 5%;
         background: #211111;
         border-radius: 2rem;
-        width: 40%;
-        padding: 5%;
-        height: 5rem;
+        box-sizing: border-box;
+        width: 30rem;
+        padding: 1.5rem;
+        height: 15rem;
     }
 
     p {
+        text-align: left;
         color: white;
-        padding: 2%;
-        position: absolute;
+        padding-bottom: 1rem;
+        position: relative;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
+        font-size: clamp(0.8em, 2vw, 5em);
         height: fit-content;
-        }
+    }
 
     #links {
         position: relative;
-        font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 120%;

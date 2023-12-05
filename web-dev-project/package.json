@@ -11,22 +11,18 @@
   "dependencies": {
     "google-map-react": "^2.2.1",
     "leaflet": "^1.9.4",
-    "leaflet-defaulticon-compatibility": "^0.1.2",
-    "leaflet-geosearch": "^3.10.2",
+    "leaflet-routing-machine": "^3.2.12",
     "next": "13.5.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
-<<<<<<< HEAD
     "react-leaflet": "^4.2.1",
-    "styled-components": "^6.1.0"
-=======
+    "react-mapbox-gl": "^5.1.1",
     "react-responsive-carousel": "^3.2.23",
     "styled-components": "^4.2.0"
->>>>>>> 0bf7bbae605feb710a9006a379a6af75a9a8197a
   },
   "devDependencies": {
-    "@types/leaflet": "^1.9.7",
+    "@types/leaflet": "^1.9.8",
     "eslint": "^8",
     "eslint-config-next": "13.5.5"
   }
