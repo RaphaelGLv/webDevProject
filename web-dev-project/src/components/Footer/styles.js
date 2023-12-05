@@ -55,7 +55,6 @@ export const Content = styled.div`
             opacity: 0.7;
         }
     }
-
     #moldura {
         height: 100%;
         width: 100%;
