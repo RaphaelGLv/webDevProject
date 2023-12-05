@@ -1,8 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import * as S from './styles';
-import Image from 'next/image';
-import fundo from '../../../public/telalogin.svg';
 
 export default function LoginPage() {
   const loginSubmit = (e) => {
@@ -49,6 +48,8 @@ export default function LoginPage() {
               <S.But>
                 <input type="submit" value="Entrar" class="button"></input>
               </S.But>
+
+              <S.LogonLink href='./LogonPage'>Fazer meu cadastro</S.LogonLink>
             </form>
           </div>
         </div>

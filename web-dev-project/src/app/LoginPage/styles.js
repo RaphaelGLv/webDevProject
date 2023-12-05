@@ -11,9 +11,13 @@ export const Content = styled.div`
         position: absolute;
         margin: 0;
         width: 100%;
-        height: 100%;
+        height: fit-content;
         display: flex;
-        
+        padding: 1rem;
+
+        @media (max-width: 511px) {
+            height: 100%;
+        }
 
     }
     .LoginArea{
@@ -24,32 +28,35 @@ export const Content = styled.div`
         flex-direction: column;
         justify-content: center;
         padding: 7%;
-        border-radius: 9rem 9rem 9rem 9rem;
+        border-radius: 20vw;
         width: fit-content;
         height: fit-content;
         /* margin-left: 20%;
         margin-top: 5%; */
         margin: auto;
+
+        @media (max-width: 511px) {
+            width: 100%;
+            height: 100%;
+        }
     }
     
-    label{
-        margin-left: 3%;
-    }
     input{
+        border: 1px solid #ACACAC;
         border-radius: 1rem;
         height: 2rem;
-        width: 90%;
-        margin-left: 3%;
+        width: 100%;
+        margin: 0 auto;
+        outline: none;
     }
     
     p{
         margin: 5% 0 3% 3%;
-        //font-weight: ;
         font-size: 150% ;
         font-weight: 600;
     }
 
-    img{
+    #img{
 
         width: 85%;
         align-self: center;
@@ -58,6 +65,13 @@ export const Content = styled.div`
 
     .cpf-senha{
         padding-left: 3%;
+    }
+
+    #loginForm {
+        margin: 0 auto;
+        width: 93%;
+        display: flex;
+        flex-direction: column;
     }
 
 `
@@ -70,7 +84,8 @@ export const But = styled.a`
         height: 2rem;
         width: 50%;
         
-        margin: 5% 0 2% 22%;
+        margin: 1.5rem auto;
+        margin-bottom: 0.3rem;
         background-color: #376192;
         color: white;
         font-size: 1.7rem;
@@ -92,9 +107,17 @@ export const But = styled.a`
             transform: scale(1.15);
         }
     }
-        
-        
-    
+`
 
+export const LogonLink = styled.a`
+    color: #376192;
+    text-decoration: none;
+    font-size: 1rem;
 
+    align-self: center;
+
+    transition: ease-in-out 0.2s;
+    &:hover {
+        text-decoration: underline;
+    }
 `
